@@ -1,0 +1,11 @@
+.accordion-button {
+    background-color: brown ;
+    color: white ;
+}
+.accordion-button:not(.collapsed) {
+    background-color: brown ;
+    color: white ;
+}
+.accordion-button::after{
+    display: none ;
+}
