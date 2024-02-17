@@ -1,10 +1,10 @@
 .accordion-button {
-    background-color: brown ;
-    color: white ;
+    background-color: white ;
+    color: black ;
 }
 .accordion-button:not(.collapsed) {
-    background-color: brown ;
-    color: white ;
+    background-color: white ;
+    color: black ;
 }
 .accordion-button::after{
     display: none ;
@@ -13,3 +13,24 @@
     color: #ffff;
     background-color: black;
 }
+.btn-dark{
+    background-color: black;
+    border-color: white;
+}
+.btn-dark:hover{
+    background-color: black;
+}
+/* CSS to rotate the caret icon */
+.bi-caret-left-fill {
+    transition: transform 0.3s ease; /* Adding smooth transition */
+  }
+  
+  .caret-rotate {
+    transform: rotate(-90deg); /* Rotate the caret icon */
+  }
+
+
+  #answer-accordion .accordion-button{
+    background-color: black;
+    color: white;
+  }
