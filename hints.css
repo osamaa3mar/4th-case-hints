@@ -34,3 +34,11 @@
     background-color: black;
     color: white;
   }
+ 
+  @media (max-width: 768px) {
+    .card-img-top {
+      max-width: 75%; /* Adjust the percentage as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin: 0 auto; /* Center the image horizontally */
+    }
+  }
